@@ -71,6 +71,7 @@
     sumneko-lua-language-server
     nil # nix
     nodePackages.pyright
+    texlab
 
     # formatters and linters
     alejandra # nix
@@ -160,8 +161,8 @@ in {
         side-by-side = true;
         navigate = true;
       };
-      userEmail = ""; # FIXME: set your git email
-      userName = ""; #FIXME: set your git username
+      userEmail = "stefan.eggenreich@gmail.com"; # FIXME: set your git email
+      userName = "stefaneggenreich"; #FIXME: set your git username
       extraConfig = {
         # FIXME: uncomment the next lines if you want to be able to clone private https repos
         # url = {
